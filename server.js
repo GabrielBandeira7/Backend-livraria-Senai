@@ -34,12 +34,12 @@ app.get("/", async (req, res) => {
 app.post("/livros", async (req, res) => {
     console.log(req.body);    
 
-    let titulo = req.body.titulo
-    let autor = req.body.autor
-    let anopublicacao = req.body.anopublicacao
-    let genero = req.body.genero
-    let idioma = req.body.idioma
-    let preco = req.body.preco
+    let titulo = req.body.inputtitulo
+    let autor = req.body.inputautor
+    let anopublicacao = req.body.inputanopublicacao
+    let genero = req.body.inputgenero
+    let idioma = req.body.inputidioma
+    let preco = req.body.inputpreco
 
 
 
